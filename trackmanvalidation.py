@@ -13,8 +13,6 @@ def loadData():
 
 def computePoints(df203, df204):
 
-    # may not have to include this
-
     firstBase203X = df203['1B_PositionAtReleaseX'].tolist() # converts the column into a list
     firstBase203Z = df203['1B_PositionAtReleaseZ'].tolist()
 
